@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.dist.css" />
+  </head>
+  <body class="bg-[#FDF9F3] p-8 lg:p-0">
+    <div class="my-2 mb-5 text-center md:my-10">
+      <h1 class="font-mono text-2xl font-bold text-purple-500 md:text-4xl">
+        Techdiary Notes
+      </h1>
+    </div>
+
+    <div
+      class="
+        flex flex-col
+        max-w-4xl
+        mx-auto
+        overflow-hidden
+        bg-white
+        rounded-md
+        ring-4 ring-[#ECDBC2]
+      "
+    >
+      <textarea
+        class="flex-1 w-full p-4 text-xl focus:outline-none"
+        cols="30"
+        rows="5"
+        placeholder=" Write something to keep..."
+      ></textarea>
+      <div class="flex items-center justify-between flex-none w-full h-20 px-5">
+        <div class="flex justify-center space-x-2">
+          <span class="inline-block w-10 h-10 bg-red-400 rounded-md"></span>
+          <span class="inline-block w-10 h-10 bg-purple-400 rounded-md"></span>
+          <span class="inline-block w-10 h-10 bg-yellow-400 rounded-md"></span>
+          <span class="inline-block w-10 h-10 bg-green-400 rounded-md"></span>
+          <span class="inline-block w-10 h-10 bg-indigo-400 rounded-md"></span>
+          <span class="inline-block w-10 h-10 bg-pink-400 rounded-md"></span>
+        </div>
+
+        <button class="px-4 py-2 border border-gray-300 rounded-md">
+          Save
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="flex items-center justify-center max-w-4xl mx-auto mt-10 space-x-4"
+    >
+      <p>Filter notes</p>
+      <div class="flex justify-center space-x-2">
+        <button
+          class="flex items-center justify-center w-10 h-10 bg-red-400 rounded-md  ring-2 ring-purple-600"
+        >
+          45
+        </button>
+        <button
+          class="flex items-center justify-center w-10 h-10 bg-purple-400 rounded-md "
+        >
+          45
+        </button>
+        <button
+          class="flex items-center justify-center w-10 h-10 bg-yellow-400 rounded-md "
+        >
+          45
+        </button>
+        <button
+          class="flex items-center justify-center w-10 h-10 bg-green-400 rounded-md "
+        >
+          45
+        </button>
+        <button
+          class="flex items-center justify-center w-10 h-10 bg-indigo-400 rounded-md "
+        >
+          45
+        </button>
+        <button
+          class="flex items-center justify-center w-10 h-10 bg-pink-400 rounded-md "
+        >
+          45
+        </button>
+      </div>
+    </div>
+
+    <div class="grid max-w-4xl grid-cols-1 gap-10 mx-auto md:grid-cols-3 my-9">
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[80px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+
+      <div
+        class="
+          bg-white
+          shadow-md
+          w-full
+          min-h-[120px]
+          rounded-md
+          p-6
+          relative
+          group
+          hover:shadow-lg
+          transition
+          duration-300
+        "
+      >
+        <button
+          class="absolute text-4xl text-red-500 transition duration-200 opacity-0  top-2 right-2 group-hover:opacity-100"
+        >
+          &times;
+        </button>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          provident, possimus mollitia fugit in ex praesentium debitis,
+          asperiores quisquam quia repudiandae architecto veniam iste nobis
+          consequuntur omnis ipsa tempore dolores?
+        </p>
+
+        <p class="mt-2 text-sm text-gray-600">3 minutes ago</p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
